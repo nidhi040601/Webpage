@@ -1,0 +1,37 @@
+1. create your account on github.
+2. create new repository
+3. give it a name and keep it private.
+
+- your online github repository is ready, now you have to connect it with your folder.
+
+1. download git.
+https://git-scm.com/downloads
+
+2. go to your working folder and follow the steps:
+
+step1: right click-open git_bash
+
+step2: enter 'git init'
+
+step3: check status with 'git status'
+(....there should be files colored in red because they have not commited yet...)
+
+step4: enter 'git add .'
+
+step5: check status again 'git status'
+(....all files should be colored green....)
+
+step5: enter 'git commit -m "some message".
+
+step6: check status again.
+(...commit done...)
+
+3. connect your github repository
+
+step1: enter 'git remote add origin url_of_your_repo'
+(...now your repository is connected...)
+
+step2: enter 'git push -u origin master'
+(...to upload your commit on repository...)
+
+"...whenever your make any changes simply commit first('git add .' and 'git commit -m "message"') then push on your github repository('git push -u origin master')..."
